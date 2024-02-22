@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>deesloy || Black Jack</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <div class="container" id="container">
+      <div class="player1">
+        <div class="player1__top">
+          <div class="point" id="point1">0/21</div>
+          <button onclick="take1()" class="take" id="take"></button>
+        </div>
+        <div class="selected__card" id="selected__card1"></div>
+      </div>
+
+      <div class="player2">
+        <div class="player2__top">
+          <div class="point" id="point2">0/21</div>
+          <button onclick="take2()" class="take" id="take"></button>
+        </div>
+        <div class="selected__card" id="selected__card2"></div>
+      </div>
+
+      <button onclick="restartGame()" class="restart1"></button>
+
+      <div class="deck">
+        <div class="fake__deck fake__deck1"></div>
+        <div class="fake__deck fake__deck2"></div>
+        <div class="fake__deck fake__deck3"></div>
+        <div class="fake__deck fake__deck4"></div>
+        <div class="fake__deck fake__deck5"></div>
+        <div class="fake__deck fake__deck6"></div>
+        <div class="fake__deck fake__deck7"></div>
+        <div class="fake__deck fake__deck8"></div>
+        <div class="fake__deck fake__deck9"></div>
+        <div class="fake__deck fake__deck10"></div>
+        <div class="fake__deck fake__deck11"></div>
+        <div class="fake__deck fake__deck12"></div>
+        <div class="anim__deck" id="anim__deck"></div>
+      </div>
+    </div>
+
+    <!-- 
+    <div class="interface__size">
+      <button class="interface__size-btn _25">25%</button>
+      <button class="interface__size-btn _50">50%</button>
+      <button class="interface__size-btn _75">75%</button>
+      <button class="interface__size-btn _100">100%</button>
+      <button class="interface__size-btn _150">150%</button>
+      <button class="interface__size-btn _200">200%</button>
+    </div> -->
+
+    <div class="player__win player1win none" id="player1win">
+      <div class="player__win-table">ИГРОК 1 ВЫИГРАЛ</div>
+      <button onclick="restartGame()" class="restart" id="restart"></button>
+    </div>
+
+    <div class="player__win player2win none" id="player2win">
+      <div class="player__win-table">ИГРОК 2 ВЫИГРАЛ</div>
+      <button onclick="restartGame()" class="restart" id="restart"></button>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+    <audio id="cardSound" src="./sound/1.mp3"></audio>
+  </body>
+</html>
