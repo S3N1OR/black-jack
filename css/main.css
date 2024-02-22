@@ -110,7 +110,6 @@ body {
   height: 100%;
   width: 14.2vmin;
   border-radius: 1vmin;
-  box-shadow: 0 0 1vmin #000000;
 }
 
 .player__win {
@@ -215,7 +214,6 @@ body {
   right: -35vmin;
   top: 50%;
   transform: translateY(-50%);
-  box-shadow: 0 0 1vmin #000000;
 }
 .anim__deck {
   background-image: url("../img/cardback.jpg");
@@ -228,7 +226,6 @@ body {
   position: absolute;
   left: 2.6vmin;
   top: 2.6vmin;
-  box-shadow: 0 0 1vmin #000000;
 }
 
 .start__anim-deck1 {
