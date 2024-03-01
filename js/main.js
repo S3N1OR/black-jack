@@ -161,6 +161,62 @@ function take1() {
     ) {
       document.getElementById("player1win").classList.remove("none");
       document.getElementById("container").classList.add("blur");
+    } else if (
+      player1Cards.length === 2 &&
+      player1Cards[0] === "A" &&
+      player1Cards[1] === "10"
+    ) {
+      document.getElementById("player1win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player1Cards.length === 2 &&
+      player1Cards[0] === "10" &&
+      player1Cards[1] === "A"
+    ) {
+      document.getElementById("player1win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player1Cards.length === 2 &&
+      player1Cards[0] === "A" &&
+      player1Cards[1] === "J"
+    ) {
+      document.getElementById("player1win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player1Cards.length === 2 &&
+      player1Cards[0] === "J" &&
+      player1Cards[1] === "A"
+    ) {
+      document.getElementById("player1win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player1Cards.length === 2 &&
+      player1Cards[0] === "A" &&
+      player1Cards[1] === "Q"
+    ) {
+      document.getElementById("player1win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player1Cards.length === 2 &&
+      player1Cards[0] === "Q" &&
+      player1Cards[1] === "A"
+    ) {
+      document.getElementById("player1win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player1Cards.length === 2 &&
+      player1Cards[0] === "A" &&
+      player1Cards[1] === "K"
+    ) {
+      document.getElementById("player1win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player1Cards.length === 2 &&
+      player1Cards[0] === "K" &&
+      player1Cards[1] === "A"
+    ) {
+      document.getElementById("player1win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
     }
 
     document.getElementById("anim__deck").classList.add("start__anim-deck1");
@@ -240,6 +296,62 @@ function take2() {
     if (
       player2Cards.length === 2 &&
       player2Cards[0] === "A" &&
+      player2Cards[1] === "A"
+    ) {
+      document.getElementById("player2win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player2Cards.length === 2 &&
+      player2Cards[0] === "A" &&
+      player2Cards[1] === "10"
+    ) {
+      document.getElementById("player2win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player2Cards.length === 2 &&
+      player2Cards[0] === "10" &&
+      player2Cards[1] === "A"
+    ) {
+      document.getElementById("player2win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player2Cards.length === 2 &&
+      player2Cards[0] === "A" &&
+      player2Cards[1] === "J"
+    ) {
+      document.getElementById("player2win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player2Cards.length === 2 &&
+      player2Cards[0] === "J" &&
+      player2Cards[1] === "A"
+    ) {
+      document.getElementById("player2win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player2Cards.length === 2 &&
+      player2Cards[0] === "A" &&
+      player2Cards[1] === "Q"
+    ) {
+      document.getElementById("player2win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player2Cards.length === 2 &&
+      player2Cards[0] === "Q" &&
+      player2Cards[1] === "A"
+    ) {
+      document.getElementById("player2win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player2Cards.length === 2 &&
+      player2Cards[0] === "A" &&
+      player2Cards[1] === "K"
+    ) {
+      document.getElementById("player2win").classList.remove("none");
+      document.getElementById("container").classList.add("blur");
+    } else if (
+      player2Cards.length === 2 &&
+      player2Cards[0] === "K" &&
       player2Cards[1] === "A"
     ) {
       document.getElementById("player2win").classList.remove("none");
